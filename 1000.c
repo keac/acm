@@ -1,7 +1,11 @@
-#include<stdio.h>
-int main(void)
+#include <stdio.h>
+
+int main()
 {
-int a,b;
-scanf("%d%d",&a,&b);
-printf("%d\n",a+b);
-} 
+    int a,b,d;
+    while(scanf("%d%d",&a,&b)!=EOF){
+    d=a+b;
+    printf("%d\n",d);
+    }
+    return 0;
+}
