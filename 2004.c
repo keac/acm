@@ -16,6 +16,7 @@ int main(void) {
 				break;
 			case 7:
 				c="C";
+				break;
 			case 6:
 				c="D";
 				break;
